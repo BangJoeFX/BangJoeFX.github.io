@@ -14,10 +14,12 @@ if (form) {
     const email = document.getElementById("email").value.trim();
     const message = document.getElementById("message").value.trim();
 
-    const text = `Halo, saya ingin Join Group VIP Bang Joe Fx:%0A%0A` +
-      `Nama: ${name}%0A` +
-      `Email: ${email}%0A` +
-      `Pesan: ${message}`;
+    const text = 
+  `Halo, saya ingin Join Group VIP Bang Joe Fx:\n` +
+  `\nNama: ${name}\n` +
+  `Email: ${email}\n` +
+  `Pesan: ${message}`;
+
 
     const encoded = encodeURIComponent(text);
 
